@@ -9,7 +9,7 @@ body {
 body,
 html {
   height: 100%;
-  width: 99%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -24,17 +24,4 @@ svg{
 
 .sparkle{
   /* mix-blend-mode:luminosity */
-}
-
-body {
-margin: 0;
-text-align:center ;
-padding: 0;
-line-height: 2.0em;
-font-family: 'Times New Roman', Times, serif;
-
-
-
-color: #000000;
-
 }
