@@ -141,6 +141,18 @@ function login() {
     else if (userId === "wzhl" && password === "21") {
         window.location.href = "wzhl789165.html";
     }
+    else if (userId === "ljt" && password !== "322") {
+        displayGreetings("大胆，她的你也敢试？")
+    }
+    else if (userId === "ljt" && password === "322") {
+        window.location.href = "ljt220806.html";
+    }
+    else if (userId === "xcx" && password !== "1231") {
+        displayGreetings("她的你也敢试？")
+    }
+    else if (userId === "xcx" && password === "1231") {
+        window.location.href = "xcx191231.html";
+    }
     else {
         displayGreetings("登录失败，请检查ID和密码。");
     }
