@@ -10,7 +10,7 @@ function login() {
         window.location.href = "greetings_admin.html";
     }
     else if (userId === "yzt" && password !== "0.18") {
-        window.location.href = "yzt_guide.html";}
+        displayGreetings("密码错误！想想我最近一次的中奖金额（带小数点）")}
     else if (userId === "yzt" && password === "0.18") {
         window.location.href = "yzt164895.html";}
     else {
