@@ -8,7 +8,12 @@ function login() {
     // 这里使用简单的示例，如果ID为"admin"，密码为"password"，则跳转到相应页面
     if (userId === "admin" && password === "password") {
         window.location.href = "greetings_admin.html";
-    } else {
+    }
+    else if (userId === "yzt" && password !== "0.18") {
+        window.location.href = "yzt_guide.html";}
+    else if (userId === "yzt" && password === "0.18") {
+        window.location.href = "yzt164895.html";}
+    else {
         displayGreetings("登录失败，请检查ID和密码。");
     }
 }
