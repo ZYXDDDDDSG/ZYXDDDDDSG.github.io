@@ -6,7 +6,7 @@ function login() {
     // 实际应用中应该使用服务器端验证
 
     // 这里使用简单的示例，如果ID为"admin"，密码为"password"，则跳转到相应页面
-    if (1==1) {
+    if (1) {
         displayGreetings("已下架，想温习的话微信找我");
     }
     else if (userId === "admin" && password === "password") {
